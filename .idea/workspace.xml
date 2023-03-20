@@ -9,9 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a8e15f3-544f-4f3b-a5c0-d6bdba4f0095" name="Changes" comment="finished">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8a8e15f3-544f-4f3b-a5c0-d6bdba4f0095" name="Changes" comment=" with jar" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +51,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Big dawg\IdeaProjects\TicTacToe Game\out\artifacts\TicTacToe_Game_jar" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -61,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679275795230</updated>
-      <workItem from="1679275796384" duration="1033000" />
+      <workItem from="1679275796384" duration="1180000" />
     </task>
     <task id="LOCAL-00001" summary="finished">
       <created>1679275991823</created>
@@ -98,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679276671923</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary=" with jar">
+      <created>1679276983513</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679276983513</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +117,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="including jar" />
     <MESSAGE value="finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished" />
+    <MESSAGE value=" with jar" />
+    <option name="LAST_COMMIT_MESSAGE" value=" with jar" />
   </component>
 </project>
