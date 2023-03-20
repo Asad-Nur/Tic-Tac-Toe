@@ -23,7 +23,7 @@ public class TicTacToe implements ActionListener {
 
         textField.setBackground(Color.GRAY);
         textField.setForeground(Color.blue);
-        textField.setFont(new Font("Dialog",Font.ITALIC,45));
+        textField.setFont(new Font("Dialog",Font.ITALIC,25));
 
         textField.setHorizontalAlignment(JLabel.CENTER);
         textField.setText("Welcome to Tic-Tac-Toe");
@@ -38,7 +38,6 @@ public class TicTacToe implements ActionListener {
         reset_button.addActionListener(this);
 
         button_panel.setLayout(new GridLayout(3,3));
-        button_panel.setBackground(Color.GREEN);
 
         for(int i = 0; i < 9; i++) {
 
@@ -252,6 +251,7 @@ public class TicTacToe implements ActionListener {
         for(int i = 0; i < 9; i++) {
             buttons[i].setText("");
             buttons[i].setEnabled(true);
+            buttons[i].setBackground(null);
         }
         player1_turn = true;
         textField.setText("Welcome to Tic-Tac-Toe");
