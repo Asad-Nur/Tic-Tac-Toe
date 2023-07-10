@@ -1,4 +1,5 @@
 import java.awt.*;
+import java.awt.Color;
 import java.awt.event.*;
 import java.util.*;
 import javax.swing.*;
@@ -17,7 +18,7 @@ public class TicTacToe implements ActionListener {
     TicTacToe(){
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(800,800);
-        frame.getContentPane(). setBackground(new Color(50,50,50));
+        frame.getContentPane(). setBackground(null);
         frame.setLayout(new BorderLayout());
         frame.setVisible(true);
 
@@ -43,6 +44,7 @@ public class TicTacToe implements ActionListener {
 
             buttons[i] = new JButton();
             button_panel.add(buttons[i]);
+            buttons[i].setOpaque(true);
             buttons[i].setFont(new Font("Dialog",Font.BOLD, 120));
             buttons[i].setFocusable(false);
             buttons[i].addActionListener(this);
