@@ -18,7 +18,7 @@ public class TicTacToe implements ActionListener {
     TicTacToe(){
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(800,800);
-        frame.getContentPane(). setBackground(null);
+        frame.getContentPane().setBackground(null);
         frame.setLayout(new BorderLayout());
         frame.setVisible(true);
 
@@ -89,7 +89,7 @@ public class TicTacToe implements ActionListener {
     public void firstTurn() {
 
         try {
-            Thread.sleep(2000);
+            Thread.sleep(100);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
